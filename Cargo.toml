@@ -1,0 +1,12 @@
+[package]
+name = "oxygen-chart-updater"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = "0.15.6"
+encoding_rs = "0.8.35"
+serde = { version = "1.0.217", features = ["derive"] }
+tiberius = { version = "0.12.3", features = ["tokio", "tokio-util"] }
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-util = "0.7.13"
